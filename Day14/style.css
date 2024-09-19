@@ -18,8 +18,8 @@ body[data-theme="light"]{
 
 body[data-theme="dark"]{
     --c1: rgb(125, 131, 136);
-    --c2: black;
-    --c3: rgb(39, 40, 42);
+    --c2: rgb(116, 199, 212);
+    --c3: rgb(27, 84, 198);
     --c4: rgb(10, 29, 80);
 }
 
