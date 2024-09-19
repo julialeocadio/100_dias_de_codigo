@@ -5,5 +5,5 @@ function countL(){
     const text = textarea.value;
     const textLength = textarea.value.length;
 
-    count.innerText = '${textLength}';
+    count.innerText = textLength;
 }

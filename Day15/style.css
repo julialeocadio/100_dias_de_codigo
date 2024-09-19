@@ -14,12 +14,12 @@ body{
     background-color: lightskyblue;
 }
 
-.container{
+.container {
     border-radius: 10px;
     width: 550px;
     padding: 40px;
-    background-color: lightskyblue;
-    display:flex;
+    background-color: lightcyan;
+    display: flex;
     flex-direction: column;
     box-shadow: 0 5px 15px rgb(0, 0, 0.1);
 
@@ -30,10 +30,8 @@ body{
     font-size: 1.8em;
     margin-top: 18px;
     resize: none;
-    height: 200px;
     width: 100%;
     padding: 10px;
-    font-size: 18px;
     border: none;
     outline: none;
 }
@@ -42,7 +40,7 @@ body{
     display: flex;
     align-items: center;
     font-size: 18px;
-    color: azure;
+    color: black;
 }
 
 .container p .count {
@@ -50,4 +48,15 @@ body{
     color: red;
     font-weight: 600;
     margin-left: 10px;
+}
+
+.container textarea {
+    position: relative;
+    margin-bottom: 20px;
+    resize: none;
+    height: 200px;
+    width: 90%;
+    font-size: 18px;
+    border: none;
+    outline: none;
 }
