@@ -10,12 +10,12 @@
     <img src="logo.png" alt="project logo" class="logo">
 
     <main class="container-input">
-        <span>size <span id="value"></span>characters</span>
+        <span>length <span id="value"></span> characters</span>
         <input type="range" id="slider" min="5" max="25" value="15">
-        <button id="button" class="button-cte" onclick=""></button>
+        <button id="button" class="button-cte" onclick=createPass()>Create password</button>
     </main>
 
-    <div class="container-password" onclick="Create password">
+    <div id="container-password" onclick=copyPass() class="container-password hide">
         <span class="title">Your password was created:</span>
         <span id="password" class="password"></span>
         <span class="tooltip">Click on the password to copy it</span>
