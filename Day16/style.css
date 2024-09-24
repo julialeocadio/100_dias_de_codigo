@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
@@ -11,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightblue;
+    background: lightblue;
 }
 
 .img-slider {
@@ -36,7 +35,7 @@ body {
     transition-property: clip-path;
 }
 
-.img-slider .slide .img {
+.img-slider .slide img {
     z-index: 1;
     width: 100%;
     border-radius: 5px;
@@ -62,6 +61,7 @@ body {
     width: 60%;
     padding: 10px;
     border-radius: 4px;
+    background-color: rgba(20, 20, 21, 0.878);
 }
 
 .img-slider .navigation {

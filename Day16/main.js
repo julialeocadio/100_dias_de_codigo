@@ -15,16 +15,17 @@ var manualNav = function (manual){
 
 };
 
-btns.forEach((btn, i)) => {
+btns.forEach((btn, i) => {
     btn.addEventListener('click', () => {
         manualNav(i);
         currentSlide = i;
     });
-};
+});
 
-var repeat = funtion(activeClass){
-    let active = document.getElementsByClassName('active'),
-    let i = 1;
+var repeat = function (activeClass)
+{
+    let active = document.getElementsByClassName('active');
+    let i = 1
 
     var repeater = () => {
         setTimeout(function (){
@@ -32,7 +33,7 @@ var repeat = funtion(activeClass){
                 activeSlide.classList.remove('active');
             });
 
-            slide[i].classList.add('active');
+            slides[i].classList.add('active');
             btns[i].classList.add('active');
             i++;
 
