@@ -4,14 +4,15 @@ let currentSlide = 1;
 
 var manualNav = function (manual){
     slides.forEach((slide) => {
-        slide.classlist.remove('active');
+        slide.classList.remove('active');
+        
         btns.forEach((btn) => {
-            btn.classlist.remove('active');
+            btn.classList.remove('active');
         });
     });
 
-    slides[manual].classlist.add('active');
-    btns[manual].classlist.add('active');
+    slides[manual].classList.add('active');
+    btns[manual].classList.add('active');
 
 };
 
@@ -37,18 +38,19 @@ var repeat = function (activeClass)
             btns[i].classList.add('active');
             i++;
 
-            if(slides.length == i){
+            if(slides.length == i)
+            {
                 i = 0;
             }
 
-            if(i >= slides.length){
+            if(i >= slides.length)
+            {
                 return;
             }
-
             repeater();
         }, 2000)
     };
     repeater();
-};
+}
 
 repeat();

@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: lightblue;
+    background: rgb(37, 37, 38);
 }
 
 .img-slider {
@@ -18,7 +18,7 @@ body {
     width: 800px;
     height: 500px;
     margin: 10px;
-    background-color: lightblue;
+    background-color: beige;
 }
 
 .img-slider .slide{
@@ -48,7 +48,7 @@ body {
 }
 
 .img-slider .slide .info h2 {
-    color: black;
+    color: gainsboro;
     font-size: 45px;
     text-transform: uppercase;
     font-style: 800;
@@ -74,7 +74,7 @@ body {
 }
 
 .img-slider .navigation .btn {
-    background-color: rgb(11, 115, 205);
+    background-color: rgb(235, 240, 244);
     box-shadow: 0 0 2px rgb(0, 0, 0.3);
     width: 12px;
     height: 12px;
@@ -84,7 +84,7 @@ body {
 }
 
 .img-slider .navigation .btn.active {
-    background-color: rgb(72, 11, 254);
+    background-color: rgb(6, 6, 6);
     box-shadow: 0 0 2px rgb(0, 0, 0.3);
     
 }
