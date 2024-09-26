@@ -17,6 +17,13 @@ space.forEach(house => {
     })
 })
 
+reset.addEventListener('click', event => {
+    space.forEach(house => {
+        house.innerText = "";
+        msg.innerText = `Next player: ${played}`
+    })
+})
+
 function checkWin(){
     let tie = true;
 
